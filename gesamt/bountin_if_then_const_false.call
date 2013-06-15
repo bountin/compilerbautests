@@ -1,2 +1,0 @@
-extern f(void);
-RET (f () == 0);

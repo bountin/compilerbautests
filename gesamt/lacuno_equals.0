@@ -1,7 +1,0 @@
-f(x : int)
-	if not x # 10 then
-		return 10;
-	else
-		return 100;
-	end;
-end;

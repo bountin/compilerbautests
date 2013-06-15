@@ -1,0 +1,5 @@
+extern long f();
+extern long g();
+extern long j();
+
+RET(f()==1337);

@@ -1,0 +1,9 @@
+f()
+var d:int := g(4,5):int;
+return d;
+end;
+
+g(d:int, y:int)
+return d*y;
+end;
+

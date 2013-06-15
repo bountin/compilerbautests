@@ -1,0 +1,8 @@
+f()
+var a:int := g():int;
+return a;
+end;
+
+g()
+return 10;
+end;

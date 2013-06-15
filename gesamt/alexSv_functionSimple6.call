@@ -1,0 +1,4 @@
+extern long f( long x);
+extern long g();
+
+RET(f(29) == 50);

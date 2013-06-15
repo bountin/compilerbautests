@@ -1,0 +1,15 @@
+f()
+var c:int:=9;
+var a:int:=g():int;
+var b:int:=j():int;
+return b;
+end;
+
+g()
+return 10;
+end;
+
+j()
+return 1337;
+end;
+

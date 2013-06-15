@@ -1,3 +1,0 @@
-f(x : array of array of array of int)
-	return x[3][3][3];
-end;

@@ -1,4 +1,0 @@
-f(k : array of int)
-	k[2] := 10;
-	return k[2];
-end;

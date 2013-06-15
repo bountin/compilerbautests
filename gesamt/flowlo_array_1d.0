@@ -1,3 +1,0 @@
-f(arr : array of int, x : int)
-	return arr[x];
-end;

@@ -1,0 +1,11 @@
+f(v:int)
+v:= g():int;
+return v;
+end;
+
+
+g()
+
+return 10 * 5;
+end;
+

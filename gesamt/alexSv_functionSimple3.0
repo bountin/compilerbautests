@@ -1,0 +1,13 @@
+f()
+var j:int := 10;
+var l:int := g():int;
+return j+l;
+end;
+
+g()
+var j:int := 4000;
+var u:int := 200;
+var l:int := 10200;
+return 5;
+end;
+

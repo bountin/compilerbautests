@@ -1,0 +1,5 @@
+long f(long j);
+long g();
+
+
+RET(f(10) == 30);

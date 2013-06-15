@@ -1,6 +1,0 @@
-f()
-	if 11 < 1 
-then return 155555;
-end;
-return 10;
-end;

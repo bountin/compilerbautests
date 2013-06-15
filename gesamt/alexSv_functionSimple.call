@@ -1,0 +1,5 @@
+extern long f();
+extern long g();
+
+
+RET(f() == 10);

@@ -1,4 +1,0 @@
-extern void f(long*);
-long a[] = {0};
-f(a);
-RET(a[0] == 1);

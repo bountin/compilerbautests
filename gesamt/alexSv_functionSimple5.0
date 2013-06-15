@@ -1,0 +1,10 @@
+f()
+var yolo:int := g(10):int;
+return yolo;
+end;
+
+
+g(x:int)
+return x*10;
+end;
+
