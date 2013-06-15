@@ -1,3 +1,0 @@
-f(x : array of int)
-	return x[2];
-end;

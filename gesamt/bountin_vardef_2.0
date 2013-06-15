@@ -1,5 +1,0 @@
-f ()
-	var x : int := 5;
-	var y:int := x * x;
-	return y - 5;
-end;

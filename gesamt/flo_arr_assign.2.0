@@ -1,4 +1,0 @@
-f(x : array of int)
-var y : int := 1;
-x[0] := y;
-end;

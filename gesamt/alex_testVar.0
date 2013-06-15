@@ -1,4 +1,0 @@
-f(x:int, y:int)
-var c: int := x;
-return c;
-end;

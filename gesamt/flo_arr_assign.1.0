@@ -1,3 +1,0 @@
-f(x : array of int)
-x[0] := 1;
-end;

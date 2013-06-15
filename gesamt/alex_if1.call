@@ -1,2 +1,0 @@
-long extern f();
-RET(f() == 10);

@@ -1,0 +1,6 @@
+extern long f();
+extern long g(long k, long u);
+
+
+RET(f() == 60);
+

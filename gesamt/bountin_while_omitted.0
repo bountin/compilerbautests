@@ -1,7 +1,0 @@
-f ()
-	while 42 #42
-	do
-		return 0;
-	end;
-	return 1;
-end;

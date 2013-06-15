@@ -1,0 +1,9 @@
+f()
+var ijo:int  := 10;
+var yolo:int := g(ijo,5):int;
+return (ijo+yolo); 
+end;
+
+g(v:int, j:int)
+return v*j;
+end;

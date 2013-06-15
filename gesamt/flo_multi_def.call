@@ -1,3 +1,0 @@
-extern long f(long);
-extern long g(long);
-RET(f(5) == 10 && g(5) == 5);

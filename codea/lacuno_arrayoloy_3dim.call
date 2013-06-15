@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+ 
+#define DIMX (3)
+#define DIMY (3)
+#define DIMZ (3)
+ 
+extern long f(long ***array);    
+ 
+long*** array3d(void) {
+        int i,j,k;
+        long ***arr = malloc(sizeof(long*) * DIMX);
+        for(i = 0; i < DIMX; i++) {
+                arr[i] = malloc(sizeof(long*) * DIMY);
+                for(j = 0; j < DIMY; j++) {
+                        arr[i][j] = malloc(sizeof(long*) * DIMZ);
+                        for(k = 0; k < DIMZ; k++) {
+                                arr[i][j][k] = i+j+k;
+                        }  
+                }  
+        }  
+ 
+        return arr;
+}
+RET(f(array3d()) == 6);

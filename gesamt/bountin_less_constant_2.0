@@ -1,7 +1,0 @@
-f ()
-	if 42 < 42
-	then
-		return 0;
-	end;
-	return 1;
-end;

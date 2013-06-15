@@ -1,0 +1,10 @@
+f(k:int)
+k:= 10+g():int;
+return k;
+end;
+
+
+g()
+return 20;
+end;
+

@@ -1,3 +1,0 @@
-f(arr : array of array of int, x : int, y : int)
-	return arr[x][y];
-end;

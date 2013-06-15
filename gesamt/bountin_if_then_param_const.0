@@ -1,7 +1,0 @@
-f(x : int)
-	if 42 # x
-	then
-		return 0;
-	end;
-	return 1;
-end;

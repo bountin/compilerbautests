@@ -1,0 +1,8 @@
+extern long f();
+extern long g(long x,long y);
+
+
+RET(f() == 20);
+
+
+

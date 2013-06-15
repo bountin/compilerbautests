@@ -1,0 +1,4 @@
+extern long f();
+extern long g(long x);
+
+RET(f()==100);

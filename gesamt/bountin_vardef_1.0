@@ -1,4 +1,0 @@
-f ()
-	var x : int := 5;
-	return x;
-end;
